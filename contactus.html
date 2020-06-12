@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Contact Us</title>
+        <link rel="stylesheet" href="css/contactus-style.css">
+    </head>
+    <body>
+        <div class="contact" id="contact">
+            <h2 onclick="toggleClass()">Get in touch with us <span>+</span></h2>
+            <form>
+                <div class="row">
+                    <div class="col-2">
+                        <label>First Name</label>
+                        <input type="text" name="" class="text" placeholder="John">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <label>Last Name</label>
+                        <input type="text" name="" class="text" placeholder="Doe">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <label>Email Adress</label>
+                        <input type="text" name="" class="text" placeholder="johndoe@gmail.com">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <label>Telephone</label>
+                        <input type="text" name="" class="text" placeholder="xxx-xxx-xxx">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-1">
+                        <label>Your Message</label>
+                        <textarea placeholder="Write your message here..."></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-1">
+                        <input type="Submit" name="" value="Send message">
+                    </div>
+                </div>
+            </form>
+        </div>
+        <script type="text/javascript">
+            function toggleClass(){
+                var element = document.getElementById('contact');
+                element.classList.toggle("active")
+            }
+        </script>
+    </body>
+</html>

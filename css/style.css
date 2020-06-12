@@ -1,0 +1,221 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#wrapper{
+    margin: 0 300px;
+    background-color:#fff;
+}
+.right-menu a{
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+}
+#header{
+    min-height: 100px;
+    padding: 20px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+#header h1{
+    margin:20px 0;
+}
+
+#header ul{
+    list-style: none;
+    margin: 20px 0;
+}
+
+#header ul li{
+    display: inline-block;
+}
+
+#header ul li a{
+    text-decoration: none;
+    padding: 0 20px;
+}
+
+body{
+    font-family: 'Spartan', sans-serif;
+    display:block;
+}
+
+.call-to-action{
+    min-height: 700px;
+    background-color:#F1F1F1;
+    padding:30px 0;
+    text-align: center;
+    margin: 0 -300px;
+}
+.call-to-action img{
+    position:relative;
+    height: 700px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+} 
+
+
+.call-to-action h1{
+    margin:20px 0;
+}
+
+.main-content{
+    min-height: 900px;
+    background-color: #fff;
+    text-align: center;
+}
+.main-content-links div{
+    margin:10px 10px 10px;
+    height: 200px;
+    background-color: #f8c291;
+    float:left;
+}
+
+.main-content-links div h3{
+    font-family: 'Spartan', sans-serif;
+    font-size:28px;
+    font-weight:100;
+    line-height: 200px;
+    color:#fff;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+
+.main-content-square{
+     width: calc(25% - 20px);
+}
+.main-content-rectangle{
+     width: calc(50% - 20px);
+}
+
+.subscribe-form{
+    background: url(images/Ice%20cream%20cookie.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;   
+    min-height: 200px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 -300px;
+}
+.email-box{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
+.email-box i{
+    background:#b71540; 
+    width: 40px;
+    line-height: 40px;
+}
+.tbox, .btn{
+    border:none;
+    outline: none;
+}
+.tbox{
+    width: 0px;
+    transition: 0.6s;
+}
+.email-box:hover > .tbox, .tbox:focus{
+    width:260px;
+    padding: 0 10px;
+}
+    
+.btn{
+    background: #b71540;
+    padding: 0 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #fff;
+}
+.recipes-links{
+   overflow: hidden;
+    margin-bottom: 20px;
+}
+.recipes-links h2{
+    font-family: 'Spartan', sans-serif;
+    font-size:28px;
+    font-weight:200;
+    color:#111;
+    text-align: center;
+    text-transform: uppercase;
+}
+.recipes-links .recipes-link{
+    float:left;
+    width:200px;
+    height: 200px;
+    margin: 20px 10px 0px;
+    background-color: #f8c291;
+}
+.recipes-links .recipes-link p{
+    padding-top: 45%;
+    font-family: 'Spartan', sans-serif;
+    font-size:18px;
+    font-weight:200;
+    color:#111;
+    text-align: center;
+    text-transform: uppercase;
+}
+/*recipe*/
+.recipe-vid h2{
+    font-family: 'Spartan', sans-serif;
+    font-size:28px;
+    font-weight:200;
+    color:#111;
+    text-align: center;
+    text-transform: uppercase;
+}
+.recipe-vid video{
+    display: block;
+    margin: 0 -300px;
+    padding: 30px 30px;  
+}
+.recipe-vid article h3{
+    font-family: 'Spartan', sans-serif;
+    font-size:28px;
+    font-weight:200;
+    color:#111;
+    text-transform: uppercase;  
+    padding-bottom: 20px; 
+}
+.recipe-vid article div p{
+    font-family: 'Spartan', sans-serif;
+    font-size:16px;
+    font-weight:200;
+    line-height: 24px;
+    color:#111;
+    text-transform: uppercase;
+    column-count: 3;
+    column-gap: 30px;
+}
+.footer{
+    background-color: #e1eff2;
+    padding: 30px 0;
+    text-align: center;
+    margin: 0 -300px;
+}
+
+.footer h1{
+    margin: 20px 0;
+}
+
+.footer ul{
+    list-style: none;
+}
+
+.footer ul li{
+    margin: 20px 0;
+}
+
+ul.social-icons li{
+    display: inline-block;
+}
